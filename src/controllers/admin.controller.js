@@ -1,5 +1,6 @@
 const adminCtrl = {}
-
+const bcrypt= require('bcrypt')
+const jwt= require('jsonwebtoken')
 const Admin = require('../models/admin.model');
 const funciones = require('../helpers/functions.helpers')
 
